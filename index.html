@@ -19,10 +19,40 @@
   </head>
   <body>
     <header>
-      <nav></nav>
+      <img class="logo" src="/images/logo/Booki.png" alt="" />
+      <nav>
+        <a class="container-nav1" href="#">
+          <div class="nav-hover nav1-hover"></div>
+          <p class="nav nav1">Hebergement</p>
+        </a>
+        <a class="container-nav2" href="#">
+          <div class="nav-hover nav2-hover"></div>
+          <p class="nav nav2">Activités</p>
+        </a>
+      </nav>
     </header>
 
-    <main></main>
+    <main>
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <h2>En plein centre-ville ou en pleine nature</h2>
+      <form class="localisation">
+        <i class="fa-solid fa-location-dot"></i>
+        <input
+          name="localisation"
+          id="localisation"
+          type="text"
+          placeholder="Votre destination"
+          value="Marseille, France"
+        />
+        <input
+          type="submit"
+          value="Rechercher"
+          name="envoiLocalisation"
+          id="envoiLocalisation"
+          formmethod="get"
+        />
+      </form>
+    </main>
 
     <footer></footer>
   </body>

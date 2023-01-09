@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
-  margin: 0px;
+  margin: 0px 50px;
   padding: 0px;
 }
 
@@ -9,16 +9,14 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .logo {
   height: 19px;
-  margin-left: 55px;
 }
 
-.container-nav2 {
-  margin-right: 77px;
-}
 .nav-hover {
   background: white;
   height: 2px;
@@ -66,4 +64,50 @@ nav {
 .nav {
   margin-bottom: 40px;
   color: black;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+form .i-container {
+  height: 100%;
+  padding: 0px 15px;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+  display: flex;
+  align-items: center;
+}
+
+#localisation {
+  height: 48px;
+  border: 1px solid #f2f2f2;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#envoiLocalisation {
+  height: 100%;
+  background: #0065fc;
+  border: 1px solid #0065fc;
+  border-radius: 0px 15px 15px 0px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 15px;
+  cursor: pointer;
 }

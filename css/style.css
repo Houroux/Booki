@@ -284,6 +284,7 @@ aside img {
   width: 50%;
   object-position: center;
   object-fit: cover;
+  display: flex;
 }
 
 .card-aside-container {

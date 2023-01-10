@@ -1,7 +1,12 @@
 body {
   font-family: "Raleway", sans-serif;
-  margin: 0px 50px;
+  margin: 0px 40px;
   padding: 0px;
+  box-sizing: border-box;
+}
+
+.margin-top {
+  margin-top: 30px;
 }
 
 header {
@@ -66,14 +71,18 @@ nav {
   color: black;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: 700;
   font-size: 22px;
+  cursor: default;
+  margin: 0px;
 }
 
-h2 {
+h3 {
   font-weight: 400;
   font-size: 16px;
+  cursor: default;
 }
 
 form {
@@ -110,4 +119,184 @@ form .i-container {
   color: #ffffff;
   padding: 15px;
   cursor: pointer;
+}
+
+.filtres {
+  display: flex;
+  gap: 30px;
+  height: 40px;
+  cursor: default;
+  align-items: center;
+}
+
+.filtres-card {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
+  border: 2px solid #d9d9d9;
+  border-radius: 25px;
+  padding: 0px 15px;
+}
+
+.filtres i {
+  color: #0065fc;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.filtres-card:hover {
+  background: #deebff;
+}
+
+em,
+main a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  gap: 10px;
+}
+
+.info i {
+  border: 1px solid #d9d9d9;
+  border-radius: 25px;
+  color: #0065fc;
+  padding: 12px 10px;
+}
+
+.main-container {
+  gap: 30px;
+  display: flex;
+}
+
+main {
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 40px;
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+  background: #f2f2f2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  margin: 30px 0px;
+}
+
+.card-main {
+  height: 200px;
+  width: 240px;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+main img {
+  border: 5px solid #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  object-position: center;
+  object-fit: cover;
+  height: 60%;
+}
+
+.star-full {
+  color: #0065fc;
+}
+
+.star-empty {
+  color: #f2f2f2;
+}
+
+.name-hotel {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 16px;
+}
+.price-hotel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 16px;
+}
+
+.rating {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 16px;
+}
+
+aside {
+  padding: 40px;
+}
+
+.top-aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+aside i {
+  color: #0065fc;
+}
+
+.card-aside {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 140px;
+  width: 100%;
+  display: flex;
+}
+
+aside img {
+  border: 5px solid #ffffff;
+  border-radius: 20px 0px 0px 20px;
+  width: 50%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.card-aside-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.info-card-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 10px;
 }

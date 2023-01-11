@@ -206,8 +206,7 @@ aside {
 }
 
 .card-main {
-  height: 200px;
-  width: 240px;
+  width: 14vw;
   background: #ffffff;
   border-radius: 20px;
   display: flex;
@@ -222,7 +221,7 @@ main img {
   border-radius: 20px 20px 0px 0px;
   object-position: center;
   object-fit: cover;
-  height: 60%;
+  height: 120px;
 }
 
 .star-full {
@@ -233,26 +232,26 @@ main img {
   color: #f2f2f2;
 }
 
-.name-hotel {
+.gras16px {
   font-weight: 700;
   font-size: 16px;
-  margin: 0px;
+  margin: 2px;
   padding: 0px;
-  padding-left: 16px;
+  padding-left: 14px;
 }
 .price-hotel {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  margin: 0px;
+  margin: 2px;
   padding: 0px;
-  padding-left: 16px;
+  padding-left: 14px;
 }
 
 .rating {
-  margin: 0px;
+  margin: 2px;
   padding: 0px;
-  padding-left: 16px;
+  padding-left: 14px;
 }
 
 aside {
@@ -299,4 +298,36 @@ aside img {
   flex-direction: column;
   justify-content: space-evenly;
   padding-right: 10px;
+}
+
+.activites-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activite-card {
+  width: 20vw;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 430px;
+}
+
+.activite-card img {
+  border-radius: 20px 20px 0px 0px;
+  object-position: center;
+  object-fit: cover;
+  height: 390px;
+}
+
+.activite-card p {
+  vertical-align: middle;
+}
+
+.activites-section h2 {
+  margin: 60px 0px 20px 0px;
 }

@@ -207,7 +207,8 @@ aside {
 }
 
 .card-main {
-  width: 14vw;
+  min-width: 14vw;
+  flex: 1;
   background: #ffffff;
   border-radius: 20px;
   display: flex;
@@ -237,8 +238,7 @@ main img {
   font-weight: 700;
   font-size: 16px;
   margin: 2px;
-  padding: 0px;
-  padding-left: 14px;
+  padding: 0px 14px;
 }
 .price-hotel {
   font-style: normal;

@@ -1,0 +1,117 @@
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0px;
+  }
+
+  header {
+    margin: 20px 0px 50px 0px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .nav-hover {
+    order: 2;
+    width: 50vw;
+  }
+  .nav {
+    margin-bottom: 20px;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0px;
+  }
+
+  h1,
+  h2,
+  h3,
+  form,
+  .filtres,
+  .info {
+    padding: 0px 20px;
+  }
+
+  .rechercher-mobile {
+    display: inline;
+    background: center / 15px 15px no-repeat url(/images/icons/Vector.png)
+      #0065fc;
+    width: 50px;
+  }
+
+  .rechercher-desktop {
+    display: none;
+  }
+
+  .filtres {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .filtres em {
+    flex-basis: 100%;
+  }
+  .filtres-card {
+    box-sizing: border-box;
+    flex-basis: 48%;
+    gap: 5px;
+  }
+
+  h4 {
+    font-size: 11px;
+  }
+
+  .info h3 {
+    padding: 0px;
+  }
+
+  aside {
+    order: -1;
+    padding: 20px;
+  }
+
+  .card-aside-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-main {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 20px;
+    background-color: white;
+  }
+  main a {
+    display: none;
+  }
+
+  .activites-container {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .activite-card {
+    width: 90vw;
+    height: 190px;
+  }
+
+  .activite-card img {
+    height: 130px;
+  }
+
+  .activite-card :nth-child(2) {
+    font-size: 16px;
+    margin: auto 0px;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 45px 30px 60px 30px;
+    margin-top: 80px;
+
+    gap: 40px;
+  }
+}

@@ -34,7 +34,7 @@
 
   .rechercher-mobile {
     display: inline;
-    background: center / 15px 15px no-repeat url(./images/icons/Vector.png)
+    background: center / 15px 15px no-repeat url(../images/icons/Vector.png)
       #0065fc;
     width: 50px;
   }

@@ -3,6 +3,7 @@ body {
   margin: 0px 40px;
   padding: 0px;
   box-sizing: border-box;
+  max-width: 1400px;
 }
 
 .margin-top {
@@ -161,8 +162,13 @@ h4 {
   background: #deebff;
 }
 
+em {
+  cursor: default;
+}
+
 em,
-main a {
+main a,
+aside a {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -323,6 +329,8 @@ aside img {
   justify-content: space-evenly;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   height: 430px;
+  text-decoration: none;
+  color: black;
 }
 
 .activite-card img {

@@ -222,13 +222,14 @@ aside {
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
-  gap: 30px;
   margin: 30px 0px;
 }
 
+article {
+  flex-basis: 33%;
+}
+
 .card-main {
-  min-width: 14vw;
-  flex: 1;
   background: #ffffff;
   border-radius: 20px;
   display: flex;
